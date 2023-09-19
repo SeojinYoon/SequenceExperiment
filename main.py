@@ -80,8 +80,8 @@ exp_info = {
         "seq_length" : 8,
         "trial_count" : 24,
         "repetition_count" : 6,
-        "move_time" : 1, # 10,
-        "rest_time" : 1, # 20,
+        "move_time" : 10,
+        "rest_time" : 20,
 }
 
 seqs = exp_info["seqs"]

@@ -10,7 +10,7 @@ from threading import Timer
 
 import psychopy
 from psychopy import core
-import psychopy.sound as sound, AudioClip
+# import psychopy.sound as sound, AudioClip
 
 """
 Note: 
@@ -143,7 +143,8 @@ class Sound_st_unit(St_Unit):
         self.sound_path = sound_path
 
         if self.sound_path != None:
-            self.sound = sound.Sound(AudioClip.load(filename = self.sound_path))
+            self.sound = None
+            # self.sound = sound.Sound(AudioClip.load(filename = self.sound_path))
         else:
             self.sound = None
             
